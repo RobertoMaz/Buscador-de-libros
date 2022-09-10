@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Buscador-de-libros/static/css/main.62bac09f.css",
+    "main.js": "/Buscador-de-libros/static/js/main.d59befc9.js",
+    "index.html": "/Buscador-de-libros/index.html",
+    "main.62bac09f.css.map": "/Buscador-de-libros/static/css/main.62bac09f.css.map",
+    "main.d59befc9.js.map": "/Buscador-de-libros/static/js/main.d59befc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62bac09f.css",
+    "static/js/main.d59befc9.js"
+  ]
+}
