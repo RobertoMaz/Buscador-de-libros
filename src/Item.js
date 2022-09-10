@@ -46,7 +46,7 @@ class Item extends React.Component{
         return(
             <div className="item">
                 <div className="image">
-                    <img src={`img/${this.state.image}`} alt={this.state.image} width="100%"/>
+                    <img src={`./img/${this.state.image}`} alt={this.state.image} width="100%"/>
                 </div>
                 <div className="title">
                     {this.state.title}
@@ -54,7 +54,7 @@ class Item extends React.Component{
                 <div className="rating">
                     <p>{
                         this.state.stars.map(el =>
-                            <img src="img/star.png" alt="star" width="32" />)
+                            <img src="./img/star.png" alt="star" width="32" />)
                     }</p>
                     <h4>Calificación</h4>
                     <select value={this.state.rating} onChange={this.onChangeRating}>

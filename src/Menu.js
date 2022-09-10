@@ -1,7 +1,8 @@
 import React from "react";
 import Search from "./Search"
 import PanelAdd from "./PanelAdd";
-import "./Menu.css"
+import "./Menu.css";
+import "./App.css";
 
 
 class Menu extends React.Component {
